@@ -1,19 +1,19 @@
-"use client"
-import BannerOne from "@/components/banner/BannerOne"
-import Header from "@/components/header/HeaderOne"
-import AboutOne from "@/components/about/AboutOne"
-import ServiceOne from "@/components/service/ServiceOne"
-import WorkingProcess from "@/components/workingprocess/ProcessOne"
-import PortfolioOne from "@/components/portfolio/PortfolioOne"
-import FaqOne from "@/components/faq/FaqOne"
-import FunfactsOne from "@/components/funfacts/FunfactsOne"
-import TeamOne from "@/components/team/TeamOne"
-import TestimonialsBrand from "@/components/testimonials/TestimonialsOne"
-import ContactOne from "@/components/contact/ContactOne"
-import Blog from "@/components/blog/Blog"
-import FooterOne from "@/components/footer/FooterOne"
-import BackToTop from "@/components/footer/BackToTop"
+'use client';
 import { useEffect } from 'react';
+import BannerFour from "@/components/banner/BannerFour"
+import HeaderFour from "@/components/header/HeaderFour"
+import ServiceFour from "@/components/service/ServiceFour"
+import BrandOne from "@/components/brand/BrandOne"
+import AboutFour from "@/components/about/AboutFour"
+import ServiceFIve from "@/components/service/ServiceFive"
+import PortfolioFour from "@/components/portfolio/PortfolioFour"
+import CounterOne from "@/components/counterup/CounterOne"
+import ContactFour from "@/components/contact/ContactFour"
+import BlogFour from "@/components/blog/BlogFour"
+import TestimonialsFour from "@/components/testimonials/TestimonialsFour"
+import TeamTwo from "@/components/team/TeamTwo"
+import FooterOne from "@/components/footer/FooterOne"
+import BackTop from "@/components/footer/BackToTop"
 import AOS from 'aos';
 
 function HomePage() {
@@ -25,21 +25,21 @@ function HomePage() {
     });
   }, []);
   return (
-    <div className="index-one">
-        <Header/>
-        <BannerOne/>
-        <AboutOne/>
-        <ServiceOne/>
-        <WorkingProcess/>
-        <PortfolioOne/>
-        <FaqOne/>
-        <FunfactsOne/>
-        <TeamOne/>
-        <TestimonialsBrand/>
-        <ContactOne/>
-        <Blog/>
-        <FooterOne/>
-        <BackToTop/>
+    <div className="index-four">
+      <HeaderFour />
+      <BannerFour />
+      <ServiceFour />
+      <BrandOne />
+      <AboutFour />
+      <ServiceFIve />
+      <PortfolioFour />
+      <CounterOne />
+      <ContactFour />
+      <BlogFour />
+      <TestimonialsFour />
+      <TeamTwo />
+      <FooterOne />
+      <BackTop />
     </div>
   )
 }
