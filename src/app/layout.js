@@ -11,15 +11,15 @@ import 'react-modal-video/css/modal-video.min.css';
 
 
 export const metadata = {
-  title: "Bizper - Consulting Business Home One",
-  description: "Bizper - Consulting Business Home One",
+  title: "Giap Technologies - Thiết kế website chuyên nghiệp, nâng tầm thương hiệu",
+  description: "Giap Technologies - Thiết kế website chuyên nghiệp, nâng tầm thương hiệu",
   icons: {
     // icon: '/fav.png', // Path to your favicon inside the public folder
     // type: 'type="image/x-icon',
     icon: {
       rel: 'icon',
       type: 'image/x-icon',
-      url: '/fav.png',
+      url: '/fav.ico',
       sizes: '16x16',
     },
   },
@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
 
 
       <body>
-        
+
         {children}
 
       </body>

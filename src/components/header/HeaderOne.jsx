@@ -2,7 +2,7 @@
 "use client";  // Ensure the component is client-side (if using Next.js)
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
-import Nav from "@/components/header/Nav"
+import Nav from "@/components/header/Nav_"
 import Image from 'next/image';
 function Header() {
   // Sticky header state

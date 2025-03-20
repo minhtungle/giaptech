@@ -147,7 +147,7 @@ function HeaderFour() {
                             <div className="header-mida-area style-two ">
                                 <div className="logo-area-start">
                                     <Link href="/">
-                                        <img src="assets/images/logo/logo.png" alt="logo" />
+                                        <img src="assets/images/logo/logo.png" alt="logo" style={{ width: '90px', height: 'auto' }} />
                                     </Link>
                                 </div>
                                 <Nav />
