@@ -128,7 +128,7 @@ function AboutFour() {
                         src="assets/images/services/section-custom-menubar.png "
                         alt="Corporate_service"
                         />
-                        <span className="subtitle">ABOUT US</span>
+                        <span className="subtitle">Về chúng tôi</span>
                     </div>
                     <h2 className="title" data-aos="fade-up" data-aos-delay="200">
                         Find out more about our <br /> business consulting

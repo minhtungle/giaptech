@@ -1,21 +1,16 @@
+
 'use client';
 import { useEffect } from 'react';
-import BannerFour from "@/components/banner/BannerFour"
 import HeaderFour from "@/components/header/HeaderFour"
-import ServiceFour from "@/components/service/ServiceFour"
-import BrandOne from "@/components/brand/BrandOne"
-import AboutFour from "@/components/about/AboutFour"
-import ServiceFIve from "@/components/service/ServiceFive"
-import PortfolioFour from "@/components/portfolio/PortfolioFour"
-import CounterOne from "@/components/counterup/CounterOne"
-import ContactFour from "@/components/contact/ContactFour"
-import BlogFour from "@/components/blog/BlogFour"
-import TestimonialsFour from "@/components/testimonials/TestimonialsFour"
-import TeamTwo from "@/components/team/TeamTwo"
+import BannerFive from "@/components/banner/BannerFive"
+import AboutOne from "@/components/about/AboutOne"
+import ServiceFive from "@/components/service/ServiceFive"
+import PortfolioFive from '@/components/portfolio/PortfolioFive';
+import ProcessTwo from "@/components/workingprocess/ProcessTwo"
+import BlogFive from "@/components/blog/BlogFive"
 import FooterOne from "@/components/footer/FooterOne"
-import BackTop from "@/components/footer/BackToTop"
+import BackTop from "@/components/footer/BackToTop";
 import AOS from 'aos';
-
 function HomePage() {
   useEffect(() => {
     AOS.init({
@@ -25,21 +20,16 @@ function HomePage() {
     });
   }, []);
   return (
-    <div className="index-four">
-      <HeaderFour />
-      <BannerFour />
-      <ServiceFour />
-      <BrandOne />
-      <AboutFour />
-      <ServiceFIve />
-      <PortfolioFour />
-      <CounterOne />
-      <ContactFour />
-      <BlogFour />
-      <TestimonialsFour />
-      <TeamTwo />
-      <FooterOne />
-      <BackTop />
+    <div className="index-Five">
+        <HeaderFour/>
+        <BannerFive/>
+        <AboutOne/>
+        <ServiceFive/>
+        <PortfolioFive/>
+        <ProcessTwo/>
+        <BlogFive/>
+        <FooterOne/>
+        <BackTop/>
     </div>
   )
 }

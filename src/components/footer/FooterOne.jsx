@@ -34,7 +34,7 @@ function Footer() {
                                         </Link>
                                     </div>
                                     <p className="description">
-                                        Giap Technologies - Thiết kế website chuyên nghiệp, nâng tầm thương hiệu
+                                        Thiết kế website chuyên nghiệp, nâng tầm thương hiệu
                                     </p>
                                     <div className="day-time">
                                         <div className="icon">

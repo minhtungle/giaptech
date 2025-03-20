@@ -40,7 +40,7 @@ function BannerFour() {
                                             Thiết kế  &amp; Phát triển <br /> <span> Website mạnh mẽ</span>{" "}
                                         </h1>
                                         <p className="disc" data-aos="move-left" data-aos-delay="500">
-                                            Nâng tầm thiết kế website cùng Vietgen Technologies
+                                            Nâng tầm thiết kế website cùng Giap Technologies
                                         </p>
                                         <div className="button-area-banner-one" data-aos="move-left" data-aos-delay="700">
                                             <Link href={'/Service'} className="tmp-btn btn-primary">
