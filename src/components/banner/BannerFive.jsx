@@ -52,7 +52,7 @@ function BannerFive() {
                                         <div className="col-lg-12">
                                             <div className="banner-startup-main-content-wrapper">
                                                 <h1 className="title">
-                                                    Thiết kế website <br /> Chuyên nghiệp
+                                                    Thiết kế website <br /> - Chuyên nghiệp -
                                                 </h1>
                                                 <p className="disc">
                                                     Chúng tôi mang đến giải pháp thiết kế web tối ưu, giúp doanh nghiệp của bạn nổi bật với tốc độ nhanh, giao diện chuyên nghiệp và trải nghiệm mượt mà.
@@ -75,7 +75,7 @@ function BannerFive() {
                                         <div className="col-lg-12">
                                             <div className="banner-startup-main-content-wrapper">
                                                 <h1 className="title">
-                                                    Giải pháp website <br /> Toàn diện
+                                                    Giải pháp website <br /> - Toàn diện -
                                                 </h1>
                                                 <p className="disc">
                                                     Không chỉ đẹp mắt, website của bạn sẽ được tối ưu tốc độ, khả năng mở rộng và hiệu suất cao, mang lại trải nghiệm tốt nhất cho khách hàng.
@@ -98,7 +98,7 @@ function BannerFive() {
                                         <div className="col-lg-12">
                                             <div className="banner-startup-main-content-wrapper">
                                                 <h1 className="title">
-                                                    Xây dựng website <br /> Mạnh mẽ
+                                                    Xây dựng website <br /> - Mạnh mẽ -
                                                 </h1>
                                                 <p className="disc">
                                                     Từ ý tưởng đến thực tế, chúng tôi giúp bạn tạo ra một website chuyên nghiệp, chuẩn SEO, giúp thương hiệu phát triển bền vững trên nền tảng số.
