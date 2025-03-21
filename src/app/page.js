@@ -7,10 +7,11 @@ import AboutOne from "@/components/about/AboutOne"
 import ServiceFive from "@/components/service/ServiceFive"
 import PortfolioFive from '@/components/portfolio/PortfolioFive';
 import ProcessTwo from "@/components/workingprocess/ProcessTwo"
-import BlogFive from "@/components/blog/BlogFive"
+import TestimonialsOne from "@/components/testimonials/TestimonialsOne"
 import FooterOne from "@/components/footer/FooterOne"
 import BackTop from "@/components/footer/BackToTop";
 import AOS from 'aos';
+
 function HomePage() {
   useEffect(() => {
     AOS.init({
@@ -21,15 +22,15 @@ function HomePage() {
   }, []);
   return (
     <div className="index-Five">
-        <HeaderFour/>
-        <BannerFive/>
-        <AboutOne/>
-        <ServiceFive/>
-        <PortfolioFive/>
-        <ProcessTwo/>
-        <BlogFive/>
-        <FooterOne/>
-        <BackTop/>
+      <HeaderFour />
+      <BannerFive />
+      <AboutOne />
+      <ServiceFive />
+      <PortfolioFive />
+      <ProcessTwo />
+      <TestimonialsOne />
+      <FooterOne />
+      <BackTop />
     </div>
   )
 }

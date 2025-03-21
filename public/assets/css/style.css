@@ -57,6 +57,7 @@
 /*----Default Css----*/
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
   --color-primary: #E42032;
@@ -102,9 +103,17 @@
   --color-vimeo: #00ADEF;
   --color-twitch: #6441A3;
   --color-discord: #7289da;
-  --font-primary: "Roboto", sans-serif;
-  --font-secondary: "Manrope", sans-serif;
-  --font-three: "fontawesome";
+  /* --font-primary: "Roboto",
+  sans-serif; */
+  /* --font-secondary: "Manrope",
+  sans-serif; */
+  /* --font-three: "fontawesome"; */
+  --font-primary: "Winky Sans",
+    sans-serif;
+  --font-secondary: "Winky Sans",
+    sans-serif;
+  --font-three: "Winky Sans",
+    sans-serif;
   --p-light: 300;
   --p-regular: 400;
   --p-medium: 500;

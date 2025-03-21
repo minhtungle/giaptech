@@ -16,9 +16,9 @@ function ServiceFIve() {
                                         src="assets/images/services/section-custom-menubar.png "
                                         alt="Business_Consulting_services"
                                     />
-                                    <span>Dịch vụ</span>
+                                    <span>VỀ SẢN PHẨM</span>
                                 </div>
-                                <h2 className="split-collab">Chúng tôi cung cấp</h2>
+                                <h2 className="split-collab">Chúng tôi cam kết với khách hàng</h2>
                             </div>
                         </div>
                     </div>

@@ -52,15 +52,13 @@ function BannerFive() {
                                         <div className="col-lg-12">
                                             <div className="banner-startup-main-content-wrapper">
                                                 <h1 className="title">
-                                                    Startup Your <br /> Business Agency
+                                                    Thiết kế website <br /> Chuyên nghiệp
                                                 </h1>
                                                 <p className="disc">
-                                                    Network with potential clients, attend industry events,
-                                                    and leverage your existing connections to generate leads
-                                                    and acquire clients.
+                                                    Chúng tôi mang đến giải pháp thiết kế web tối ưu, giúp doanh nghiệp của bạn nổi bật với tốc độ nhanh, giao diện chuyên nghiệp và trải nghiệm mượt mà.
                                                 </p>
                                                 <Link href={'/Contact'} className="tmp-btn btn-primary">
-                                                    Get Started Now
+                                                    Bắt đầu ngay
                                                 </Link>
                                             </div>
                                         </div>
@@ -77,15 +75,13 @@ function BannerFive() {
                                         <div className="col-lg-12">
                                             <div className="banner-startup-main-content-wrapper">
                                                 <h1 className="title">
-                                                    Startup Your <br /> Business Agency
+                                                    Giải pháp website <br /> Toàn diện
                                                 </h1>
                                                 <p className="disc">
-                                                    Network with potential clients, attend industry events,
-                                                    and leverage your existing connections to generate leads
-                                                    and acquire clients.
+                                                    Không chỉ đẹp mắt, website của bạn sẽ được tối ưu tốc độ, khả năng mở rộng và hiệu suất cao, mang lại trải nghiệm tốt nhất cho khách hàng.
                                                 </p>
                                                 <Link href={'/Contact'} className="tmp-btn btn-primary">
-                                                    Get Started Now
+                                                    Bắt đầu ngay
                                                 </Link>
                                             </div>
                                         </div>
@@ -102,15 +98,13 @@ function BannerFive() {
                                         <div className="col-lg-12">
                                             <div className="banner-startup-main-content-wrapper">
                                                 <h1 className="title">
-                                                    Startup Your <br /> Business Agency
+                                                    Xây dựng website <br /> Mạnh mẽ
                                                 </h1>
                                                 <p className="disc">
-                                                    Network with potential clients, attend industry events,
-                                                    and leverage your existing connections to generate leads
-                                                    and acquire clients.
+                                                    Từ ý tưởng đến thực tế, chúng tôi giúp bạn tạo ra một website chuyên nghiệp, chuẩn SEO, giúp thương hiệu phát triển bền vững trên nền tảng số.
                                                 </p>
                                                 <Link href={'/Contact'} className="tmp-btn btn-primary">
-                                                    Get Started Now
+                                                    Bắt đầu ngay
                                                 </Link>
                                             </div>
                                         </div>
