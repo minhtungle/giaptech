@@ -11,15 +11,15 @@ import 'react-modal-video/css/modal-video.min.css';
 
 
 export const metadata = {
-  title: "Giap Technologies - Thiết kế website chuyên nghiệp, nâng tầm thương hiệu",
-  description: "Giap Technologies - Thiết kế website chuyên nghiệp, nâng tầm thương hiệu",
+  title: "Giap Technology - Thiết kế website chuyên nghiệp, nâng tầm thương hiệu",
+  description: "Giap Technology - Thiết kế website chuyên nghiệp, nâng tầm thương hiệu",
   icons: {
     // icon: '/fav.png', // Path to your favicon inside the public folder
     // type: 'type="image/x-icon',
     icon: {
       rel: 'icon',
       type: 'image/x-icon',
-      url: '/fav.ico',
+      url: '/favicon.ico',
       sizes: '16x16',
     },
   },

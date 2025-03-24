@@ -180,7 +180,7 @@ const Header = ({ id }) => {
                         className="progress-bar wow fadeInLeft bg--primary"
                         role="progressbar"
                         style={{
-                          width: '85%'
+                          width: '75%'
                         }}
                       />
                     </div>
@@ -204,7 +204,7 @@ const Header = ({ id }) => {
                         className="progress-bar wow fadeInLeft bg--primary"
                         role="progressbar"
                         style={{
-                          width: '66%'
+                          width: '25%'
                         }}
                       />
                     </div>

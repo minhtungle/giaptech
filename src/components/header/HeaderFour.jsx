@@ -120,7 +120,7 @@ function HeaderFour() {
                                     <div className="right-header-top">
                                         <div className="social-area-transparent">
                                             <span>Theo dõi</span>
-                                            <Link href={'#'}>
+                                            <Link href="https://www.facebook.com/giaptech">
                                                 <i className="fa-brands fa-facebook-f" />
                                             </Link>
                                             <Link href={'#'}>
@@ -147,7 +147,7 @@ function HeaderFour() {
                             <div className="header-mida-area style-two ">
                                 <div className="logo-area-start">
                                     <Link href="/">
-                                        <img src="assets/images/logo/logo.png" alt="logo" style={{ width: '90px', height: 'auto' }} />
+                                        <img src="assets/images/logo/logo.png" alt="logo" style={{ width: '15rem', height: 'auto' }} />
                                     </Link>
                                 </div>
                                 <Nav />
