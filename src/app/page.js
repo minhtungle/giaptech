@@ -1,15 +1,15 @@
 
 'use client';
 import { useEffect } from 'react';
-import HeaderFour from "@/components/header/HeaderFour"
-import BannerFive from "@/components/banner/BannerFive"
-import AboutOne from "@/components/about/AboutOne"
-import ServiceFive from "@/components/service/ServiceFive"
-import PortfolioFive from '@/components/portfolio/PortfolioFive';
-import ProcessTwo from "@/components/workingprocess/ProcessTwo"
-import TestimonialsOne from "@/components/testimonials/TestimonialsOne"
-import FooterOne from "@/components/footer/FooterOne"
-import BackTop from "@/components/footer/BackToTop";
+import Header from "@/components/_main/header/Header"
+import Banner from "@/components/_main/banner/Banner"
+import About from "@/components/_main/about/About"
+import Service from "@/components/_main/service/Service"
+import Portfolio from '@/components/_main/portfolio/Portfolio';
+import WorkingProcess from "@/components/_main/workingprocess/WorkingProcess"
+import Testimonials from "@/components/_main/testimonials/Testimonials"
+import Footer from "@/components/_main/footer/Footer"
+import BackTop from "@/components/_main/footer/BackToTop";
 import AOS from 'aos';
 
 function HomePage() {
@@ -22,14 +22,14 @@ function HomePage() {
   }, []);
   return (
     <div className="index-Five">
-      <HeaderFour />
-      <BannerFive />
-      <AboutOne />
-      <ServiceFive />
-      <PortfolioFive />
-      <ProcessTwo />
-      <TestimonialsOne />
-      <FooterOne />
+      <Header />
+      <Banner />
+      <About />
+      <Service />
+      <Portfolio />
+      <WorkingProcess />
+      <Testimonials />
+      <Footer />
       <BackTop />
     </div>
   )

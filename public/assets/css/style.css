@@ -62,6 +62,7 @@
 :root {
   --color-primary: #E42032;
   --color-secondary: #1273EB;
+  /* --color-secondary: #6591f8; */
   --color-secondary-alt: #1274eb7f;
   --color-purple: #4A11EB;
   --color-gray: #f6f6f6;
@@ -19794,10 +19795,16 @@ body.service-details {
   transform: rotate(318deg);
 }
 
+.icon.bg-color-primary-alt {
+  background-color: var(--color-primary);
+}
+
 .icon.bg-color-secondary {
   background-color: var(--color-secondary);
 }
-
+.icon.bg-color-secondary-alt {
+  background-color: var(--color-secondary-alt);
+}
 .icon.bg-color-secondary i {
   color: var(--color-white);
   display: inline-block;
@@ -19807,11 +19814,7 @@ body.service-details {
   text-align: center;
 }
 
-.icon.bg-color-secondary-alt {
-  background-color: var(--color-secondary-alt);
-}
-
-.icon.bg-color-secondary-alt i.small-icon {
+.icon i.small-icon {
   height: 25px;
   min-width: 25px;
   line-height: 25px;
@@ -19820,7 +19823,7 @@ body.service-details {
   display: block;
 }
 
-.icon.bg-color-secondary-alt i::before {
+.icon i::before {
   color: #fff;
 }
 

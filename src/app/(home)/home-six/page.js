@@ -1,18 +1,18 @@
 
 'use client';
 import { useEffect } from 'react';
-import BannerSix from "@/components/banner/BannerSix"
-import Header from "@/components/header/HeaderFour"
-import AboutOne from "@/components/about/AboutOne"
-import ServiceFive from "@/components/service/ServiceFive"
-import PortfolioFour from "@/components/portfolio/PortfolioFour"
-import WorkingProcess from "@/components/workingprocess/ProcessOne"
-import TestimonialsOne from "@/components/testimonials/TestimonialsOne"
-import ContactOne from "@/components/contact/ContactOne"
-import TeamOne from "@/components/team/TeamOne"
-import BlogFive from "@/components/blog/BlogFive"
-import FooterThree from "@/components/footer/FooterThree"
-import BackTop from "@/components/footer/BackToTop"
+import BannerSix from "@/components/temp/banner/BannerSix"
+import Header from "@/components/temp/header/HeaderFour"
+import AboutOne from "@/components/temp/about/AboutOne"
+import ServiceFive from "@/components/temp/service/ServiceFive"
+import PortfolioFour from "@/components/temp/portfolio/PortfolioFour"
+import WorkingProcess from "@/components/temp/workingprocess/ProcessOne"
+import TestimonialsOne from "@/components/temp/testimonials/TestimonialsOne"
+import ContactOne from "@/components/temp/contact/ContactOne"
+import TeamOne from "@/components/temp/team/TeamOne"
+import BlogFive from "@/components/temp/blog/BlogFive"
+import FooterThree from "@/components/temp/footer/FooterThree"
+import BackTop from "@/components/temp/footer/BackToTop"
 
 function HomePage() {
   useEffect(() => {
@@ -25,18 +25,18 @@ function HomePage() {
   }, []);
   return (
     <div className="index-Six">
-        <Header/>
-        <BannerSix/>
-        <AboutOne/>
-        <ServiceFive/>
-        <PortfolioFour/>
-        <WorkingProcess/>
-        <TestimonialsOne/>
-        <ContactOne/>
-        <TeamOne/>
-        <BlogFive/>
-        <FooterThree/>
-        <BackTop/>
+      <Header />
+      <BannerSix />
+      <AboutOne />
+      <ServiceFive />
+      <PortfolioFour />
+      <WorkingProcess />
+      <TestimonialsOne />
+      <ContactOne />
+      <TeamOne />
+      <BlogFive />
+      <FooterThree />
+      <BackTop />
     </div>
   )
 }

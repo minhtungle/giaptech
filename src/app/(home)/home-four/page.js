@@ -1,19 +1,19 @@
 'use client';
 import { useEffect } from 'react';
-import BannerFour from "@/components/banner/BannerFour"
-import HeaderFour from "@/components/header/HeaderFour"
-import ServiceFour from "@/components/service/ServiceFour"
-import BrandOne from "@/components/brand/BrandOne"
-import AboutFour from "@/components/about/AboutFour"
-import ServiceFIve from "@/components/service/ServiceFive"
-import PortfolioFour from "@/components/portfolio/PortfolioFour"
-import CounterOne from "@/components/counterup/CounterOne"
-import ContactFour from "@/components/contact/ContactFour"
-import BlogFour from "@/components/blog/BlogFour"
-import TestimonialsFour from "@/components/testimonials/TestimonialsFour"
-import TeamTwo from "@/components/team/TeamTwo"
-import FooterOne from "@/components/footer/FooterOne"
-import BackTop from "@/components/footer/BackToTop"
+import BannerFour from "@/components/temp/banner/BannerFour"
+import HeaderFour from "@/components/temp/header/HeaderFour"
+import ServiceFour from "@/components/temp/service/ServiceFour"
+import BrandOne from "@/components/temp/brand/BrandOne"
+import AboutFour from "@/components/temp/about/AboutFour"
+import ServiceFIve from "@/components/temp/service/ServiceFive"
+import PortfolioFour from "@/components/temp/portfolio/PortfolioFour"
+import CounterOne from "@/components/temp/counterup/CounterOne"
+import ContactFour from "@/components/temp/contact/ContactFour"
+import BlogFour from "@/components/temp/blog/BlogFour"
+import TestimonialsFour from "@/components/temp/testimonials/TestimonialsFour"
+import TeamTwo from "@/components/temp/team/TeamTwo"
+import FooterOne from "@/components/temp/footer/FooterOne"
+import BackTop from "@/components/temp/footer/BackToTop"
 import AOS from 'aos';
 
 function HomePage() {
@@ -27,20 +27,20 @@ function HomePage() {
   return (
     <div className="index-four">
 
-        <HeaderFour/>
-        <BannerFour/>
-        <ServiceFour/>
-        <BrandOne/>
-        <AboutFour/>
-        <ServiceFIve/>
-        <PortfolioFour/>
-        <CounterOne/>
-        <ContactFour/>
-        <BlogFour/>
-        <TestimonialsFour/>
-        <TeamTwo/>
-        <FooterOne/>
-        <BackTop/>
+      <HeaderFour />
+      <BannerFour />
+      <ServiceFour />
+      <BrandOne />
+      <AboutFour />
+      <ServiceFIve />
+      <PortfolioFour />
+      <CounterOne />
+      <ContactFour />
+      <BlogFour />
+      <TestimonialsFour />
+      <TeamTwo />
+      <FooterOne />
+      <BackTop />
 
 
     </div>

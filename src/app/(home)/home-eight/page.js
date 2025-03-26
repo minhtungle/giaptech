@@ -1,14 +1,14 @@
 'use client';
 import { useEffect } from 'react';
-import HeaderFive from "@/components/header/HeaderFive"
-import BannerEight from "@/components/banner/BannerEight"
-import ServiceFour from "@/components/service/ServiceFour"
-import FunfactsThree from "@/components/funfacts/FunfactsThree"
-import BackToTop from "@/components/footer/BackToTop"
-import AboutSix from "@/components/about/AboutSix"
-import PortfolioSeven  from '@/components/portfolio/PortfolioSeven';
-import BrandTwo from "@/components/brand/BrandTwo"
-import FooterThree from '@/components/footer/FooterThree';
+import HeaderFive from "@/components/temp/header/HeaderFive"
+import BannerEight from "@/components/temp/banner/BannerEight"
+import ServiceFour from "@/components/temp/service/ServiceFour"
+import FunfactsThree from "@/components/temp/funfacts/FunfactsThree"
+import BackToTop from "@/components/temp/footer/BackToTop"
+import AboutSix from "@/components/temp/about/AboutSix"
+import PortfolioSeven from '@/components/temp/portfolio/PortfolioSeven';
+import BrandTwo from "@/components/temp/brand/BrandTwo"
+import FooterThree from '@/components/temp/footer/FooterThree';
 import AOS from 'aos';
 
 function HomePageEight() {
@@ -21,18 +21,18 @@ function HomePageEight() {
   }, []);
   return (
     <div className="index-eight">
-        <HeaderFive/>
-        <BannerEight/>
-        <ServiceFour/>
-        <AboutSix/>
-        <FunfactsThree/>
-        <PortfolioSeven/>
-        <BrandTwo/>
-        <FooterThree/>
+      <HeaderFive />
+      <BannerEight />
+      <ServiceFour />
+      <AboutSix />
+      <FunfactsThree />
+      <PortfolioSeven />
+      <BrandTwo />
+      <FooterThree />
 
 
 
-        <BackToTop/>
+      <BackToTop />
     </div>
   )
 }
