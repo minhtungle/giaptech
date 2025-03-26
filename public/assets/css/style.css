@@ -104,17 +104,17 @@
   --color-vimeo: #00ADEF;
   --color-twitch: #6441A3;
   --color-discord: #7289da;
-  /* --font-primary: "Roboto",
-  sans-serif; */
-  /* --font-secondary: "Manrope",
-  sans-serif; */
-  /* --font-three: "fontawesome"; */
-  --font-primary: "Winky Sans",
+  --font-primary: "Roboto",
+    sans-serif;
+  --font-secondary: "Manrope",
+    sans-serif;
+  --font-three: "fontawesome";
+  /* --font-primary: "Winky Sans",
     sans-serif;
   --font-secondary: "Winky Sans",
     sans-serif;
   --font-three: "Winky Sans",
-    sans-serif;
+    sans-serif; */
   --p-light: 300;
   --p-regular: 400;
   --p-medium: 500;
@@ -19802,9 +19802,11 @@ body.service-details {
 .icon.bg-color-secondary {
   background-color: var(--color-secondary);
 }
+
 .icon.bg-color-secondary-alt {
   background-color: var(--color-secondary-alt);
 }
+
 .icon.bg-color-secondary i {
   color: var(--color-white);
   display: inline-block;

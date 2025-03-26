@@ -25,23 +25,6 @@ function Nav() {
                                 <span className="rolling-text">
                                     {[...Array(2)].map((_, index) => (
                                         <div key={index} className="block">
-                                            {[..."VỀ CHÚNG TÔI"].map((l, i) => (
-                                                <span key={i} className="letter">{l === " " ? "\u00A0" : l}</span>
-                                            ))}
-                                        </div>
-                                    ))}
-                                </span>
-                            </Link>
-                            <ul className="submenu">
-                                <li><Link href="/Service">Service</Link></li>
-                                <li><Link href="/ServiceDetails">Service Details</Link></li>
-                            </ul>
-                        </li>
-                        <li className="has-dropdown">
-                            <Link className="nav-link" href="#">
-                                <span className="rolling-text">
-                                    {[...Array(2)].map((_, index) => (
-                                        <div key={index} className="block">
                                             {[..."DỊCH VỤ"].map((l, i) => (
                                                 <span key={i} className="letter">{l === " " ? "\u00A0" : l}</span>
                                             ))}
@@ -50,11 +33,11 @@ function Nav() {
                                 </span>
                             </Link>
                             <ul className="submenu">
-                                <li><Link href="/Blog">Blog</Link></li>
-                                <li><Link href="/BlogColOne">Blog Col 1</Link></li>
-                                <li><Link href="/BlogColTwo">Blog Col 2</Link></li>
-                                <li><Link href="/BlogDetails">Blog Details</Link></li>
-                                <li><Link href="/BlogDetailsTwo">Blog Details v2</Link></li>
+                                <li><Link href="/Blog">Doanh nghiệp</Link></li>
+                                <li><Link href="/BlogColOne">Cá nhân</Link></li>
+                                <li><Link href="/BlogColTwo">Nhà cửa & Nội thất</Link></li>
+                                <li><Link href="/BlogDetails">F&B</Link></li>
+                                <li><Link href="/BlogDetailsTwo">Thời trang & Mỹ phẩm</Link></li>
                             </ul>
                         </li>
                         <li>
