@@ -7,6 +7,8 @@ import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
 
 function Portfolio() {
+    const TechThemesTab = () => {
+    };
     return (
         <div>
             {/* rmp portfolio mesonary area */}
