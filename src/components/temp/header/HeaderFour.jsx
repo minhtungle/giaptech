@@ -105,7 +105,7 @@ function HeaderFour() {
                                     <div className="left-information-area">
                                         <p className="left-top">
                                             <Link href={'tel:+4733378901'}>
-                                                <i className="fa-regular fa-phone" /> +84 (0)35 2986 312
+                                                <i className="fa-regular fa-phone" /> +84 (0)35 2425 290
                                             </Link>
                                         </p>
                                         <div className="location-area">
@@ -204,7 +204,7 @@ function HeaderFour() {
                             <div className="information">
                                 <span>Phone</span>
                                 <a href="#" className="number">
-                                    +84 (0)35 2986 312
+                                    +84 (0)35 2425 290
                                 </a>
                             </div>
                         </div>

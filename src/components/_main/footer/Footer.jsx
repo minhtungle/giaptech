@@ -164,7 +164,7 @@ function Footer() {
                                                 </div>
                                                 <div className="content">
                                                     <span>Phone:</span>
-                                                    <Link href="tel:+4733378901">+84 (0)35 2986 312</Link>
+                                                    <Link href="tel:+4733378901">+84 (0)35 2425 290</Link>
                                                 </div>
                                             </div>
                                         </li>

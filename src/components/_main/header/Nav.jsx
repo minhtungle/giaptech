@@ -25,7 +25,7 @@ function Nav() {
                                 <span className="rolling-text">
                                     {[...Array(2)].map((_, index) => (
                                         <div key={index} className="block">
-                                            {[..."DỊCH VỤ"].map((l, i) => (
+                                            {[..."THƯ VIỆN MẪU"].map((l, i) => (
                                                 <span key={i} className="letter">{l === " " ? "\u00A0" : l}</span>
                                             ))}
                                         </div>
