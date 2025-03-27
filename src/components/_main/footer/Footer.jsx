@@ -2,8 +2,71 @@
 "use client";
 import Link from 'next/link';
 import Image from 'next/image';
+import info from "@/data/info.json";
 
 function Footer() {
+    const productList = [
+        {
+            name: "Doanh nghiệp",
+            link: "/Product/Business"
+        },
+        {
+            name: "Cá nhân",
+            link: "/Product/Personal"
+        },
+        {
+            name: "Nhà cửa & Nội thất",
+            link: "/Product/Home-Furniture"
+        },
+        {
+            name: "F&B",
+            link: "/Product/Food-Beverage"
+        },
+        {
+            name: "Thời trang & Mỹ phẩm",
+            link: "/Product/Fashion-Beauty"
+        },
+        {
+            name: "Công nghệ & Điện tử",
+            link: "/Product/Tech-Electronics"
+        },
+        {
+            name: "Giáo dục & Học tập",
+            link: "/Product/Education-Learning"
+        },
+        {
+            name: "Thể thao & Sức khỏe",
+            link: "/Product/Sports-Health"
+        },
+        {
+            name: "Du lịch & Khách sạn",
+            link: "/Product/Travel-Hospitality"
+        },
+        {
+            name: "Nghệ thuật & Giải trí",
+            link: "/Product/Art-Entertainment"
+        },
+        {
+            name: "Bất động sản",
+            link: "/Product/Real-Estate"
+        },
+        {
+            name: "Dịch vụ tài chính",
+            link: "/Product/Finance-Services"
+        },
+        {
+            name: "Nông nghiệp",
+            link: "/Product/Agriculture"
+        },
+        {
+            name: "Ô tô & Xe máy",
+            link: "/Product/Automotive"
+        },
+        {
+            name: "Y tế & Chăm sóc sức khỏe",
+            link: "/Product/Healthcare"
+        }
+    ];
     return (
         <div>
             <footer className="footer-area footer-style-one-wrapper bg-color-footer bg_images tmp-section-gap">
@@ -47,102 +110,61 @@ function Footer() {
                                     </div>
                                     <ul className="social-icons solid-social-icons rounded-social-icons">
                                         <li>
-                                            <Link href="#">
+                                            <Link href={info.social.facebook}>
                                                 <i className="fa-brands fa-facebook-f" />
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
+                                            <Link href={info.social.facebook}>
                                                 <i className="fa-brands fa-linkedin-in" />
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
+                                            <Link href={info.social.facebook}>
                                                 <i className="fa-brands fa-twitter" />
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="#">
+                                            <Link href={info.social.facebook}>
                                                 <i className="fa-brands fa-instagram" />
                                             </Link>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-lg-2 col-md-6">
+                            <div className="col-lg-5 col-md-6">
                                 <div className="single-footer-wrapper pl-50 pl_md--0 pl_sm--0">
-                                    <h5 className="ft-title">Quick Link</h5>
-                                    <ul className="ft-link">
-                                        <li>
-                                            <Link href={'/About'}>About Company</Link>
-                                        </li>
-                                        <li>
-                                            <Link href={'/TeamOne'}>Meet Our Team</Link>
-                                        </li>
-                                        <li>
-                                            <Link href={'/Service'}>Our Services</Link>
-                                        </li>
-                                        <li>
-                                            <Link href={'/Blog'}>News &amp; Media</Link>
-                                        </li>
-                                        <li>
-                                            <Link href={'/Contact'}>Contact Us</Link>
-                                        </li>
-                                        <li>
-                                            <Link href={'/FaqOne'}>Support</Link>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6">
-                                <div className="single-footer-wrapper pr--15">
-                                    <h5 className="ft-title">Recent Post</h5>
-                                    <div className="single-post">
-                                        <div className="thumbnail">
-                                            <Image width={80} height={80}
-                                                src="/assets/images/footer/small-post.jpg"
-                                                alt="Business_Corporate"
-                                            />
+                                    <h5 className="ft-title">Sản phẩm</h5>
+                                    <div className="row">
+                                        {/* Cột 1 */}
+                                        <div className="col-lg-6 col-md-6">
+                                            <ul className="ft-link">
+                                                {productList.slice(0, Math.ceil(productList.length / 2)).map((item, index) => (
+                                                    <li key={index} style={{ listStyleType: "disc", marginLeft: "20px" }}>
+                                                        <Link href={item.link}>{item.name}</Link>
+                                                    </li>
+                                                ))}
+                                            </ul>
                                         </div>
-                                        <div className="content">
-                                            <div className="date">
-                                                <i className="fa-light fa-calendar-days" />
-                                                <span>12 Feb, 2022</span>
-                                            </div>
-                                            <Link href={'/BlogDetails'}>
-                                                <h6 className="title">
-                                                    Day tree hide from hath gathered multy
-                                                </h6>
-                                            </Link>
-                                        </div>
-                                    </div>
-                                    <div className="single-post">
-                                        <div className="thumbnail">
-                                            <Image width={80} height={80}
-                                                src="/assets/images/footer/small-post-2.jpg"
-                                                alt="Business_Corporate"
-                                            />
-                                        </div>
-                                        <div className="content">
-                                            <div className="date">
-                                                <i className="fa-light fa-calendar-days" />
-                                                <span>12 Feb, 2022</span>
-                                            </div>
-                                            <Link href={'/BlogDetails'}>
-                                                <h6 className="title">
-                                                    Saving Time Achieving Success in Business
-                                                </h6>
-                                            </Link>
+                                        {/* Cột 2 */}
+                                        <div className="col-lg-6 col-md-6">
+                                            <ul className="ft-link">
+                                                {productList.slice(Math.ceil(productList.length / 2)).map((item, index) => (
+                                                    <li key={index} style={{ listStyleType: "disc", marginLeft: "20px" }}>
+                                                        <Link href={item.link}>{item.name}</Link>
+                                                    </li>
+                                                ))}
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-6">
                                 <div className="single-footer-wrapper">
-                                    <h5 className="ft-title">Official info:</h5>
+                                    <h5 className="ft-title">Thông tin liên hệ</h5>
                                     <ul className="ft-link">
                                         <li className="ft-location">
-                                            Hà Nội, Việt Nam
+                                            {info.address}
                                         </li>
                                         <li>
                                             <div className="single-contact">
@@ -152,7 +174,7 @@ function Footer() {
                                                 <div className="content">
                                                     <span>Email:</span>
                                                     <Link href="mailto:webmaster@example.com">
-                                                        giaptech@gmail.com
+                                                        {info.email}
                                                     </Link>
                                                 </div>
                                             </div>
@@ -163,8 +185,8 @@ function Footer() {
                                                     <i className="fa-light fa-phone" />
                                                 </div>
                                                 <div className="content">
-                                                    <span>Phone:</span>
-                                                    <Link href="tel:+4733378901">+84 (0)35 2425 290</Link>
+                                                    <span>Số điện thoại:</span>
+                                                    <Link href="tel:+4733378901">{info.phone}</Link>
                                                 </div>
                                             </div>
                                         </li>

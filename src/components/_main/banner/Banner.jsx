@@ -7,13 +7,11 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 import Link from 'next/link';
-
+import info from "@/data/info.json";
 
 function Banner() {
     return (
         <div>
-
-
             {/* start startup banner swiper main wrapper */}
             <div className="startup-banner-swiper-wrapper">
                 <div className="swiper swiper-startup-banner">
@@ -57,7 +55,7 @@ function Banner() {
                                                 <p className="disc">
                                                     Chúng tôi mang đến giải pháp thiết kế web tối ưu, giúp doanh nghiệp của bạn nổi bật với tốc độ nhanh, giao diện chuyên nghiệp và trải nghiệm mượt mà.
                                                 </p>
-                                                <Link href={'/Contact'} className="tmp-btn btn-primary">
+                                                <Link href={info.social.facebook} className="tmp-btn btn-primary">
                                                     Bắt đầu ngay
                                                 </Link>
                                             </div>

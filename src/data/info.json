@@ -1,0 +1,42 @@
+{
+    "email": "giaptech@gmail.com",
+    "phone": "+84 (0)35 2425 290",
+    "address": "Hà Nôi, Việt Nam",
+    "workingTime": "9:00 AM - 6:00 PM (GMT+7)",
+    "company": {
+        "name": "Giap Tech",
+        "website": "https://giaptech.com",
+        "description": "Giap Tech is a leading technology company specializing in software development, IT consulting, and digital transformation services.",
+        "logo": "/images/logo.png",
+        "establishedYear": 2020,
+        "industry": "Information Technology",
+        "services": [
+            "Software Development",
+            "IT Consulting",
+            "Digital Transformation",
+            "Cloud Solutions",
+            "Mobile App Development"
+        ]
+    },
+    "social": {
+        "facebook": "https://www.facebook.com/giaptech",
+        "twitter": "https://twitter.com/giaptech",
+        "youtube": "https://www.youtube.com/@giaptech",
+        "instagram": "https://www.instagram.com/giaptech",
+        "linkedin": "https://www.linkedin.com/company/giaptech",
+        "tiktok": "https://www.tiktok.com/@giaptech",
+        "github": "https://github.com/giaptech",
+        "telegram": "https://t.me/giaptech",
+        "discord": "https://discord.gg/giaptech",
+        "medium": "https://medium.com/@giaptech",
+        "devto": "https://dev.to/giaptech",
+        "reddit": "https://www.reddit.com/user/giaptech",
+        "quora": "https://www.quora.com/profile/Giap-Tech",
+        "pinterest": "https://www.pinterest.com/giaptech",
+        "snapchat": "https://www.snapchat.com/add/giaptech",
+        "steam": "https://steamcommunity.com/id/giaptech",
+        "whatsapp": "https://wa.me/84988888888",
+        "viber": "viber://chat?number=84988888888",
+        "skype": "skype:giaptech?chat"
+    }
+}

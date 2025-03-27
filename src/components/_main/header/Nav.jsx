@@ -1,7 +1,28 @@
 import React from 'react'
 import Link from 'next/link';
 function Nav() {
-
+    const productList = [
+        {
+            name: "Doanh nghiệp",
+            link: "/Product/"
+        },
+        {
+            name: "Cá nhân",
+            link: "/Product/"
+        },
+        {
+            name: "Nhà cửa & Nội thất",
+            link: "/Product/"
+        },
+        {
+            name: "F&B",
+            link: "/Product/"
+        },
+        {
+            name: "Thời trang & Mỹ phẩm",
+            link: "/Product/"
+        }
+    ];
     return (
         <div>
             <div className="header-nav main-nav-one">
@@ -33,11 +54,11 @@ function Nav() {
                                 </span>
                             </Link>
                             <ul className="submenu">
-                                <li><Link href="/Blog">Doanh nghiệp</Link></li>
-                                <li><Link href="/BlogColOne">Cá nhân</Link></li>
-                                <li><Link href="/BlogColTwo">Nhà cửa & Nội thất</Link></li>
-                                <li><Link href="/BlogDetails">F&B</Link></li>
-                                <li><Link href="/BlogDetailsTwo">Thời trang & Mỹ phẩm</Link></li>
+                                {productList.map((item, index) => (
+                                    <li key={index}>
+                                        <Link href={item.link}>{item.name}</Link>
+                                    </li>
+                                ))}
                             </ul>
                         </li>
                         <li>

@@ -2,6 +2,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Nav from "@/components/_main/header/Nav"
 import Link from 'next/link';
+import info from "@/data/info.json";
 
 function Header() {
     const [isSticky, setIsSticky] = useState(false);
@@ -105,31 +106,31 @@ function Header() {
                                     <div className="left-information-area">
                                         <p className="left-top">
                                             <Link href={'tel:+4733378901'}>
-                                                <i className="fa-regular fa-phone" /> +84 (0)35 2425 290
+                                                <i className="fa-regular fa-phone" /> {info.phone}
                                             </Link>
                                         </p>
                                         <div className="location-area">
                                             <i className="fa-light fa-location-dot" />
-                                            <Link href={'#'}>Hà Nội, Việt Nam</Link>
+                                            <Link href={'#'}>{info.address}</Link>
                                         </div>
                                         <div className="working-time">
                                             <i className="fa-light fa-clock" />
-                                            <p>Thời gian làm việc: 9:00 AM – 8:00 PM</p>
+                                            <p>Thời gian làm việc: {info.workingTime}</p>
                                         </div>
                                     </div>
                                     <div className="right-header-top">
                                         <div className="social-area-transparent">
                                             <span>Theo dõi</span>
-                                            <Link href="https://www.facebook.com/giaptech">
+                                            <Link href={info.social.facebook}>
                                                 <i className="fa-brands fa-facebook-f" />
                                             </Link>
-                                            <Link href={'#'}>
+                                            <Link href={info.social.facebook}>
                                                 <i className="fa-brands fa-twitter" />
                                             </Link>
-                                            <Link href={'#'}>
+                                            <Link href={info.social.facebook}>
                                                 <i className="fa-brands fa-linkedin-in" />
                                             </Link>
-                                            <Link href={'#'}>
+                                            <Link href={info.social.facebook}>
                                                 <i className="fa-brands fa-pinterest-p" />
                                             </Link>
                                         </div>
@@ -150,10 +151,10 @@ function Header() {
                                         <img src="assets/images/logo/logo.png" alt="logo" style={{ width: '15rem', height: 'auto' }} />
                                     </Link>
                                 </div>
-                                <Nav />
+                                {/* <Nav /> */}
                                 {/* <Link href={'#'} class="tmp-btn btn-primary">Get Consulting</Link> */}
                                 <div className="actions-area">
-                                    <Link href={'/Service'} className="tmp-btn btn-primary">
+                                    <Link href={info.social.facebook} className="tmp-btn btn-primary">
                                         Liên hệ ngay
                                     </Link>
                                     {/* <div class="menu-button" id="search">
